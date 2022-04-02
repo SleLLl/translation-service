@@ -1,5 +1,5 @@
 {
-  "name": "translation-service",
+  "name": "translation-service-google-sheets",
   "version": "0.0.1",
   "description": "Service for creation translation file from google sheet",
   "main": "index.js",
