@@ -1,6 +1,6 @@
 {
   "name": "translation-service-google-sheets",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Service for creation translation file from google sheet",
   "main": "index.js",
   "scripts": {

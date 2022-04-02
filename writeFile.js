@@ -3,9 +3,9 @@ import appRoot from "app-root-path";
 
 const writeFile = (basePath, folder, fileName, content) => {
   try {
-    const folderName = `${appRoot.path}/${basePath}/${folder}`;
+    const folderName = appRoot.resolve(`/${basePath}/${folder}`);
     if (!fs.existsSync(folderName)) {
-      fs.mkdirSync(folderName);
+      fs.mkdirSync(folderName, { recursive: true });
     }
 
     fs.writeFileSync(
