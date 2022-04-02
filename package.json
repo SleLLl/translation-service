@@ -1,6 +1,6 @@
 {
   "name": "translation-service-google-sheets",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Service for creation translation file from google sheet",
   "main": "index.js",
   "keywords": [
@@ -19,8 +19,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "author": "slelllq@gmail.com",
-  "license": "ISC",
+  "author": "Kolyago Sergei <slelllq@gmail.com> (https://github.com/SleLLl)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SleLLl/translation-service"
+  },
+  "bugs": {
+    "url": "https://github.com/SleLLl/translation-service/issues"
+  },
   "dependencies": {
     "app-root-path": "^3.0.0",
     "google-spreadsheet": "^3.2.0"
