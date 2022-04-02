@@ -1,8 +1,19 @@
 {
   "name": "translation-service-google-sheets",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Service for creation translation file from google sheet",
   "main": "index.js",
+  "keywords": [
+    "google",
+    "sheets",
+    "translation",
+    "translate",
+    "translator",
+    "translating",
+    "translations",
+    "translations-service",
+    "lokalise"
+  ],
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
