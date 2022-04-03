@@ -57,6 +57,9 @@ Perfect!
 "prebuild": "node translate.js",
 ```
 
+## Video example
+[![Alt text](https://i.ibb.co/cbCF3z1/Screenshot.png)](https://www.youtube.com/watch?v=nXMGKO4n5FM)
+
 ### How to get api key
 
 Setup Instructions
